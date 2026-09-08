@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#f5f3f0] flex flex-col lg:flex-row p-6 md:p-12 lg:p-16 gap-10">
       {/* profile */}
-      <div className="border border-[#758BFD] lg:w-1/3 lg:sticky lg:top-16 bg-gradient-to-b from-[#AEB8FE] to-[#27187e] shadow-2xl p-6 md:p-10 rounded-2xl flex flex-col justify-center h-auto lg:h-[80vh]">
+      <div className="border border-[#758BFD] lg:w-1/3 lg:sticky lg:top-16 bg-gradient-to-b from-[#AEB8FE] to-[#27187e] shadow-2xl my-[25%] md:m-0 p-6 md:p-10 rounded-2xl md:flex md:flex-col justify-center h-auto lg:h-[80vh]">
         <div className="rounded-full bg-slate-200 w-28 h-28 flex mx-auto border-[#ff7e00] border-3 pt-1 shrink-0">
           <Image
             src={cloudly}
@@ -42,9 +42,11 @@ export default function Home() {
             Frontend / Web Developer
           </h2>
         </div>
-        <span className="text-black text-xs md:text-sm font-thin leading-relaxed text-center w-fit mx-auto bg-[#FFC20E] border-slate-400 p-0.5 px-2 rounded-md font-syne">
-          "i like to make website"
-        </span>
+        <div className="flex">
+          <span className="text-black text-xs md:text-sm font-thin leading-relaxed text-center w-fit mx-auto bg-[#FFC20E] border-slate-400 p-0.5 px-2 rounded-md font-syne">
+            "i like to make website"
+          </span>
+        </div>
 
         {/* tech stack */}
         <div className="flex flex-wrap text-sm text-slate-400 gap-2 pt-4 w-full justify-center">
@@ -133,7 +135,7 @@ export default function Home() {
           tag="Project 01"
           title="Catering Information System"
           desc="Final project web application for catering order and transaction recap. Built with the MERN stack, integrated with Midtrans for digital payments and Fonnte for automated Whatsapp order confirmation."
-          topClass="top-16"
+          topClass="md:top-16 top-5"
           bgClass="bg-[#27187e] text-white"
         >
           {/* Ubah flex jadi col di HP, row di layar md ke atas */}
@@ -141,13 +143,13 @@ export default function Home() {
             <Image
               src={catering}
               alt="catering"
-              className="rounded-lg object-cover md:w-auto h-[200px] md:h-[280px]"
+              className="rounded-lg object-cover md:w-auto h-[150px] md:h-[280px]"
               loading="eager"
             />
             <Image
               src={cateringmobile}
               alt="catering-mobile"
-              className="rounded-lg w-auto h-[200px] md:h-[280px]"
+              className="rounded-lg w-auto h-[150px] md:h-[280px]"
               loading="eager"
             />
           </div>
@@ -195,7 +197,7 @@ export default function Home() {
           tag="Project 02"
           title="Profile Website for SLB Talitakum"
           desc="Website for transparent BOS (School Operational Assistance) fund reporting. Collaborated in a team to design and develop the client-side interface"
-          topClass="top-17.5"
+          topClass="md:top-17.5 top-7"
           bgClass="bg-[#3620b7] text-white"
         >
           <div className="flex md:flex-row gap-4 justify-center items-center">
@@ -203,14 +205,14 @@ export default function Home() {
               src={talitakum}
               alt="talitakum"
               width={300}
-              className="rounded-lg md:w-auto object-cover md:h-[300px]"
+              className="rounded-lg md:w-auto object-cover h-[150px] md:h-[300px]"
               loading="eager"
             />
             <Image
               src={talitakummobile}
               alt="talitakum-mobile"
               width={300}
-              className="rounded-lg h-[250px] md:h-[300px] w-auto object-contain"
+              className="rounded-lg h-[150px] md:h-[300px] w-auto object-contain"
               loading="eager"
             />
           </div>
@@ -244,7 +246,7 @@ export default function Home() {
           tag="Project 03"
           title="FloodPost"
           desc="Exam project and my first experience building a MERN CRUD application. Note: Currently optimized for desktop view only"
-          topClass="top-18.5"
+          topClass="md:top-18.5 top-9"
           bgClass="bg-[#27187e] text-white"
         >
           <div className="flex flex-col gap-4 justify-center items-center">
@@ -302,21 +304,21 @@ export default function Home() {
           tag="Project 04"
           title="Cafe Landing Page"
           desc="First independent exploration using React to build responsive website layout. This project inspired by Youtube tutorials"
-          topClass="top-20"
+          topClass="top-11 mb-[29%]"
           bgClass="bg-[#3620b7] text-white"
         >
           <div className="flex md:flex-row gap-4 justify-center items-center">
             <Image
               src={cafe}
               alt="cafe"
-              className="rounded-lg md:w-auto object-cover h-[250px] md:h-[300px]"
+              className="rounded-lg md:w-auto object-cover h-[150px] md:h-[300px]"
               loading="eager"
             />
             <Image
               src={cafemobile}
               alt="cafe-mobile"
               width={300}
-              className="rounded-lg h-[250px] md:h-[300px] w-auto object-contain"
+              className="rounded-lg h-[150px] md:h-[300px] w-auto object-contain"
               loading="eager"
             />
           </div>

@@ -26,7 +26,7 @@ export default function RootLayout({
       lang="id"
       className={`${syne.variable} scroll-smooth ${spaceg.variable} ${jakarta.variable}`}
     >
-      <body className="min-h-screen bg-[#f5f3f0] text-slate-100 antialiased">
+      <body className="min-h-screen bg-[#f5f3f0] overflow-x-hidden text-slate-100 antialiased">
         {children}
       </body>
     </html>
