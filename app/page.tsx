@@ -22,9 +22,9 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#f5f3f0] flex flex-col lg:flex-row p-6 md:p-12 lg:p-16 gap-10">
+    <main className="min-h-screen bg-[#f5f3f0] flex flex-col lg:flex-row p-6 md:p-12 lg:p-16 md:gap-10 gap-6">
       {/* profile */}
-      <div className="border border-[#758BFD] lg:w-1/3 lg:sticky lg:top-16 bg-gradient-to-b from-[#AEB8FE] to-[#27187e] shadow-2xl my-[25%] md:m-0 p-6 md:p-10 rounded-2xl md:flex md:flex-col justify-center h-auto lg:h-[80vh]">
+      <div className="border border-[#758BFD] lg:w-1/3 lg:sticky lg:top-16 bg-gradient-to-b from-[#AEB8FE] to-[#27187e] shadow-2xl my-[15%] md:m-0 p-6 md:p-10 rounded-2xl md:flex md:flex-col justify-center  h-auto lg:h-[80vh]">
         <div className="rounded-full bg-slate-200 w-28 h-28 flex mx-auto border-[#ff7e00] border-3 pt-1 shrink-0">
           <Image
             src={cloudly}
@@ -304,7 +304,7 @@ export default function Home() {
           tag="Project 04"
           title="Cafe Landing Page"
           desc="First independent exploration using React to build responsive website layout. This project inspired by Youtube tutorials"
-          topClass="top-11 mb-[29%] md:m-0"
+          topClass="top-20"
           bgClass="bg-[#3620b7] text-white"
         >
           <div className="flex md:flex-row gap-4 justify-center items-center">
