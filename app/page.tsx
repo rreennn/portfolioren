@@ -141,13 +141,13 @@ export default function Home() {
             <Image
               src={catering}
               alt="catering"
-              className="rounded-lg object-cover md:w-auto h-[200px] md:h-[300px]"
+              className="rounded-lg object-cover md:w-auto h-[200px] md:h-[280px]"
               loading="eager"
             />
             <Image
               src={cateringmobile}
               alt="catering-mobile"
-              className="rounded-lg w-auto h-[200px] md:h-[300px]"
+              className="rounded-lg w-auto h-[200px] md:h-[280px]"
               loading="eager"
             />
           </div>
@@ -195,7 +195,7 @@ export default function Home() {
           tag="Project 02"
           title="Profile Website for SLB Talitakum"
           desc="Website for transparent BOS (School Operational Assistance) fund reporting. Collaborated in a team to design and develop the client-side interface"
-          topClass="top-19"
+          topClass="top-17.5"
           bgClass="bg-[#3620b7] text-white"
         >
           <div className="flex md:flex-row gap-4 justify-center items-center">
@@ -244,7 +244,7 @@ export default function Home() {
           tag="Project 03"
           title="FloodPost"
           desc="Exam project and my first experience building a MERN CRUD application. Note: Currently optimized for desktop view only"
-          topClass="top-22"
+          topClass="top-18.5"
           bgClass="bg-[#27187e] text-white"
         >
           <div className="flex flex-col gap-4 justify-center items-center">
@@ -302,7 +302,7 @@ export default function Home() {
           tag="Project 04"
           title="Cafe Landing Page"
           desc="First independent exploration using React to build responsive website layout. This project inspired by Youtube tutorials"
-          topClass="top-29"
+          topClass="top-20"
           bgClass="bg-[#3620b7] text-white"
         >
           <div className="flex md:flex-row gap-4 justify-center items-center">
