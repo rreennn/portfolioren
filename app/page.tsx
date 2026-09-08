@@ -304,7 +304,7 @@ export default function Home() {
           tag="Project 04"
           title="Cafe Landing Page"
           desc="First independent exploration using React to build responsive website layout. This project inspired by Youtube tutorials"
-          topClass="top-11 mb-[29%]"
+          topClass="top-11 mb-[29%] md:m-0"
           bgClass="bg-[#3620b7] text-white"
         >
           <div className="flex md:flex-row gap-4 justify-center items-center">
