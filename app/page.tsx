@@ -70,7 +70,7 @@ export default function Home() {
         <hr className="my-4 h-1 w-32 md:w-48 mx-auto rounded-sm border-0 bg-neutral-400" />
 
         <Link
-          href="https://drive.google.com/file/d/1eoQTl-tkRw1KepUlni8jgph5etri1fLL/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Q0Tx9bvZXbUnVRHcPkhBVWOH8Ou1_Ku3/view?usp=sharing"
           className="group mx-auto"
         >
           <p className="text-black text-sm font-semibold leading-relaxed text-center w-fit mx-auto bg-[#FFC20E] hover:bg-[#ff7e00] duration-200 p-1 px-2 rounded-md">
