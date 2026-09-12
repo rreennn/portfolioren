@@ -92,7 +92,7 @@ export default function Home() {
                 href={"https://github.com/rreennn"}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group text-white text-sm"
+                className="group text-white text-sm underline md:no-underline"
               >
                 <p>GitHub</p>
                 <div className="bg-[#aeb8fe] h-0.5 w-0 group-hover:w-full transition-all duration-150"></div>
@@ -104,7 +104,7 @@ export default function Home() {
               </div>
               <a
                 href="mailto:kerenkaren1704@gmail.com"
-                className="group text-white text-sm"
+                className="group text-white text-sm underline md:no-underline"
               >
                 <p>Email</p>
                 <div className="bg-[#aeb8fe] h-0.5 w-0 group-hover:w-full transition-all duration-150"></div>
@@ -118,7 +118,7 @@ export default function Home() {
                 href={"https://www.linkedin.com/in/karenaningtyas"}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group text-white text-sm"
+                className="group text-white text-sm underline md:no-underline"
               >
                 <p>LinkedIn</p>
                 <div className="bg-[#aeb8fe] h-0.5 w-0 group-hover:w-full transition-all duration-150"></div>
@@ -175,17 +175,17 @@ export default function Home() {
               <Link
                 href={"https://catering-app-ta.vercel.app/"}
                 target="_blank"
-                className="group"
+                className="group underline md:no-underline"
               >
-                Live Demo↗
+                Live Demo
                 <div className="bg-[#aeb8fe] h-0.5 w-0 group-hover:w-full transition-all duration-150"></div>
               </Link>
               <Link
                 href={"https://github.com/rreennn/catering-app-ta"}
                 target="_blank"
-                className="group"
+                className="group underline md:no-underline"
               >
-                GitHub↗
+                GitHub
                 <div className="bg-[#aeb8fe] h-0.5 w-0 group-hover:w-full transition-all duration-150"></div>
               </Link>
             </div>
@@ -232,9 +232,9 @@ export default function Home() {
               <Link
                 href={"https://slbtalitakum.sch.id/"}
                 target="_blank"
-                className="group"
+                className="group underline md:no-underline"
               >
-                Live Demo↗
+                Live Demo
                 <div className="bg-[#aeb8fe] h-0.5 w-0 group-hover:w-full transition-all duration-150"></div>
               </Link>
             </div>
@@ -282,17 +282,17 @@ export default function Home() {
                   "https://uas-react-flood-post-c8cszeds2-rreennns-projects.vercel.app/"
                 }
                 target="_blank"
-                className="group"
+                className="group underline md:no-underline"
               >
-                Live Demo↗
+                Live Demo
                 <div className="bg-[#aeb8fe] h-0.5 w-0 group-hover:w-full transition-all duration-150"></div>
               </Link>
               <Link
                 href={"https://github.com/rreennn/UAS-React-FloodPost"}
                 target="_blank"
-                className="group"
+                className="group underline md:no-underline"
               >
-                GitHub↗
+                GitHub
                 <div className="bg-[#aeb8fe] h-0.5 w-0 group-hover:w-full transition-all duration-150"></div>
               </Link>
             </div>
@@ -335,17 +335,17 @@ export default function Home() {
               <Link
                 href={"https://web-cafe-two.vercel.app/"}
                 target="_blank"
-                className="group"
+                className="group underline md:no-underline"
               >
-                Live Demo↗
+                Live Demo
                 <div className="bg-[#aeb8fe] h-0.5 w-0 group-hover:w-full transition-all duration-150"></div>
               </Link>
               <Link
                 href={"https://github.com/rreennn/web-cafe"}
                 target="_blank"
-                className="group"
+                className="group underline md:no-underline"
               >
-                GitHub↗
+                GitHub
                 <div className="bg-[#aeb8fe] h-0.5 w-0 group-hover:w-full transition-all duration-150"></div>
               </Link>
             </div>
